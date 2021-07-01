@@ -1,5 +1,4 @@
 # Extrato de conta corrente
-[![Downloads Stats][npm-downloads]][npm-url]
 
 Desenvolvimento realizado para disciplina de Programação II/III da Universidade Feevale, solicitado pelo Professor Gabriel Simões como Trabalho 2.
 
@@ -22,3 +21,17 @@ Explicação da funcionalidade desenvolvida: https://youtu.be/FQ47X2dltz8
 ```sh
 git clone https://github.com/carla-reis-cr/Acesso-Banco-Muita-Grana.git
 ```
+## Configuração de desenvolvimento
+Realizar a criação de um banco local, e utilizar o script na pasta DB:
+```sh
+Acesso-Banco-Muita-Grana/DB/COMANDO_SQL_CREATE_TABLE.sql
+```
+Não esquecer de subir o servidor, caso esteja utilizando o Netbens. Ajustar a Class TransacaoDAO, para se conectar no banco de dados da sua preferencia.
+
+## Contribuições
+
+1. Fork it (<https://github.com/carla-reis-cr/Acesso-Banco-Muita-Grana/fork>)
+2. Criar a sua feature branch (`git checkout -b feature/fooBar`)
+3. Commit das suas alterações (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Criando assim uma nova Pull Request
