@@ -15,3 +15,6 @@ além da inserção de transações de débito ou crédito.
 ● Ao final da lista de transações deve ser exibido o saldo atual da conta.
 ● Um banco de dados com pelo menos uma tabela que manterá os registros vinculados às
 contas.
+
+
+Explicação da funcionalidade desenvolvida: https://youtu.be/FQ47X2dltz8
