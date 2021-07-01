@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>Acesso ao Banco Muita Grana</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="StyleSheet" type="text/css" href="styles.css" media="screen" >
+        <script>
+            function validaListar(){
+                
+                var conta = myFormIndex.conta.value;
+                
+                if(conta==''){
+                alert("Você deve informar uma conta");
+                return false;
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+        <p class="title">Acesso ao <br>
+            Banco Muita Grana</p>
+        <div class="form__group field">
+        <form method="post" action="listaContaCorrente.jsp" id="myFormIndex">
+            <input type="text" placeholder="Informe seu número de conta" class="form__field"  name="conta" id='conta' maxlength="5" onkeypress='return event.charCode >= 48 && event.charCode <= 57'></input>
+            <input class="kb-btn kb-btn-round kb-btn-2" type="submit" value="Listar" onclick="return validaListar()"/>
+        </form>
+        </div>
+    </body>
+</html>
